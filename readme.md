@@ -29,6 +29,8 @@ Read more on IBAN validation at [Wikipedia: International Bank Account Number][1
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 ## Changelog:
+### 2020.02
+Updated country code and length list to match https://www.iban.com/structure updated 22 January 2020
 ### 2020.01
 Inital version. It should do the job.
 
