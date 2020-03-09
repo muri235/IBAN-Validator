@@ -1,5 +1,6 @@
-/*  IBAN Validator
+/*  IBAN-Validator
     Written by Muri @muri235 09.03.2020
+    Fork me on GitHub: https://github.com/muri235/IBAN-Validator
     Version 2020.01
     Licenced CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
  */
@@ -347,7 +348,8 @@ function checkMod97(integerizedIban) {
 
 // main function
 function validateIban(iban) {
-    return checkLength(iban) && checkMod97(integerize(iban));
+    const trimmedIban = iban.replace(/ /g,'');
+    return checkLength(trimmedIban) && checkMod97(integerize(trimmedIban));
 }
 
 /* ####################################
