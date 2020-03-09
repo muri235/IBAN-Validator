@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IBAN Validator</title>
+    <script src="iban-validator.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>IBAN Validator</h1>
+<h2>Written by Muri <a href="https://github.com/muri235">@muri235</a></h2>
+<table>
+    <tr>
+        <td><label for="ibanInput"> IBAN to validate: </label></td>
+        <td><input type="text" id="ibanInput"></td>
+        <td>
+            <button id="validateButton">Validate!</button>
+        </td>
+        <td>
+            <span id="validStatus" class="valid">VALID</span>
+            <span id="invalidStatus" class="invalid">INVALID</span>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="bulkIbanInput">Bulk validation: </label></td>
+        <td><textarea id="bulkIbanInput"></textarea></td>
+        <td>
+            <button id="bulkValidateButton">Validate!</button>
+        </td>
+        <td></td>
+    </tr>
+</table>
+<table id="bulkResults">
+</table>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</body>
+</html>

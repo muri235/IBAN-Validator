@@ -1,0 +1,15 @@
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
+
+input,textarea {
+    width: 300px;
+}
+
+textarea {
+    height: 200px;
+}
