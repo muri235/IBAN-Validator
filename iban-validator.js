@@ -7,13 +7,25 @@
 
 
 const countries = {
+    AX: {
+        name: "Aland Islands",
+        length: 18
+    },
     AL: {
         name: "Albania",
         length: 28
     },
+    DZ: {
+        name: "Algeria",
+        length: 26
+    },
     AD: {
         name: "Andorra",
         length: 24
+    },
+    AO: {
+        name: "Angola",
+        length: 25
     },
     AT: {
         name: "Austria",
@@ -35,6 +47,10 @@ const countries = {
         name: "Belgium",
         length: 16
     },
+    BJ: {
+        name: "Benin",
+        length: 28
+    },
     BA: {
         name: "Bosnia and Herzegovina",
         length: 20
@@ -46,6 +62,46 @@ const countries = {
     BG: {
         name: "Bulgaria",
         length: 22
+    },
+    BF: {
+        name: "Burkina Faso",
+        length: 28
+    },
+    BI: {
+        name: "Burundi",
+        length: 16
+    },
+    CM: {
+        name: "Cameroon",
+        length: 27
+    },
+    IC: {
+        name: "Canary Islands",
+        length: 24
+    },
+    CV: {
+        name: "Cape Verde",
+        length: 25
+    },
+    CF: {
+        name: "Central African Republic",
+        length: 27
+    },
+    EA: {
+        name: "Ceuta and Melilla",
+        length: 24
+    },
+    TD: {
+        name: "Chad",
+        length: 27
+    },
+    KM: {
+        name: "Comoros",
+        length: 27
+    },
+    CG: {
+        name: "Congo",
+        length: 27
     },
     CR: {
         name: "Costa Rica",
@@ -67,13 +123,25 @@ const countries = {
         name: "Denmark",
         length: 18
     },
+    DJ: {
+        name: "Djibouti",
+        length: 27
+    },
     DO: {
         name: "Dominican Republic",
         length: 28
     },
-    TL: {
-        name: "East Timor",
-        length: 23
+    EG: {
+        name: "Egypt",
+        length: 29
+    },
+    SV: {
+        name: "El Salvador",
+        length: 28
+    },
+    GQ: {
+        name: "Equatorial Guinea",
+        length: 27
     },
     EE: {
         name: "Estonia",
@@ -89,6 +157,22 @@ const countries = {
     },
     FR: {
         name: "France",
+        length: 27
+    },
+    GF: {
+        name: "French Guyana",
+        length: 27
+    },
+    PF: {
+        name: "French Polynesia",
+        length: 27
+    },
+    TF: {
+        name: "French Southern Territories",
+        length: 27
+    },
+    GA: {
+        name: "Gabon",
         length: 27
     },
     GE: {
@@ -111,8 +195,28 @@ const countries = {
         name: "Greenland",
         length: 18
     },
+    GP: {
+        name: "Guadeloupe",
+        length: 27
+    },
     GT: {
         name: "Guatemala",
+        length: 28
+    },
+    GG: {
+        name: "Guernsey",
+        length: 22
+    },
+    GW: {
+        name: "Guinea-Bissau",
+        length: 25
+    },
+    VA: {
+        name: "Holy See (the)",
+        length: 22
+    },
+    HN: {
+        name: "Honduras",
         length: 28
     },
     HU: {
@@ -123,12 +227,20 @@ const countries = {
         name: "Iceland",
         length: 26
     },
+    IR: {
+        name: "Iran",
+        length: 26
+    },
     IQ: {
         name: "Iraq",
         length: 23
     },
     IE: {
         name: "Ireland",
+        length: 22
+    },
+    IM: {
+        name: "Isle of Man",
         length: 22
     },
     IL: {
@@ -138,6 +250,14 @@ const countries = {
     IT: {
         name: "Italy",
         length: 27
+    },
+    CI: {
+        name: "Ivory Coast",
+        length: 28
+    },
+    JE: {
+        name: "Jersey",
+        length: 22
     },
     JO: {
         name: "Jordan",
@@ -175,13 +295,21 @@ const countries = {
         name: "Luxembourg",
         length: 20
     },
-    MK: {
-        name: "North Macedonia",
-        length: 19
+    MG: {
+        name: "Madagascar",
+        length: 27
+    },
+    ML: {
+        name: "Mali",
+        length: 28
     },
     MT: {
         name: "Malta",
         length: 31
+    },
+    MQ: {
+        name: "Martinique",
+        length: 27
     },
     MR: {
         name: "Mauritania",
@@ -191,21 +319,49 @@ const countries = {
         name: "Mauritius",
         length: 30
     },
-    MC: {
-        name: "Monaco",
+    YT: {
+        name: "Mayotte",
         length: 27
     },
     MD: {
         name: "Moldova",
         length: 24
     },
+    MC: {
+        name: "Monaco",
+        length: 27
+    },
     ME: {
         name: "Montenegro",
         length: 22
     },
+    MA: {
+        name: "Morocco",
+        length: 28
+    },
+    MZ: {
+        name: "Mozambique",
+        length: 25
+    },
     NL: {
         name: "Netherlands",
         length: 18
+    },
+    NC: {
+        name: "New Caledonia",
+        length: 27
+    },
+    NI: {
+        name: "Nicaragua",
+        length: 32
+    },
+    NE: {
+        name: "Niger",
+        length: 28
+    },
+    MK: {
+        name: "North Macedonia",
+        length: 19
     },
     NO: {
         name: "Norway",
@@ -216,7 +372,7 @@ const countries = {
         length: 24
     },
     PS: {
-        name: "Palestinian territories",
+        name: "Palestine",
         length: 29
     },
     PL: {
@@ -231,21 +387,45 @@ const countries = {
         name: "Qatar",
         length: 29
     },
+    RE: {
+        name: "Reunion",
+        length: 27
+    },
     RO: {
         name: "Romania",
         length: 24
+    },
+    BL: {
+        name: "Saint Barthelemy",
+        length: 27
     },
     LC: {
         name: "Saint Lucia",
         length: 32
     },
+    MF: {
+        name: "Saint Martin (French part)",
+        length: 27
+    },
+    PM: {
+        name: "Saint Pierre et Miquelon",
+        length: 27
+    },
     SM: {
         name: "San Marino",
         length: 27
     },
+    ST: {
+        name: "Sao Tome and Principe",
+        length: 25
+    },
     SA: {
         name: "Saudi Arabia",
         length: 24
+    },
+    SN: {
+        name: "Senegal",
+        length: 28
     },
     RS: {
         name: "Serbia",
@@ -256,7 +436,7 @@ const countries = {
         length: 31
     },
     SK: {
-        name: "Slovakia",
+        name: "Slovak Republic",
         length: 24
     },
     SI: {
@@ -275,6 +455,14 @@ const countries = {
         name: "Switzerland",
         length: 21
     },
+    TL: {
+        name: "Timor-Leste",
+        length: 23
+    },
+    TG: {
+        name: "Togo",
+        length: 28
+    },
     TN: {
         name: "Tunisia",
         length: 24
@@ -282,6 +470,10 @@ const countries = {
     TR: {
         name: "Turkey",
         length: 26
+    },
+    UA: {
+        name: "Ukraine",
+        length: 29
     },
     AE: {
         name: "United Arab Emirates",
@@ -291,14 +483,14 @@ const countries = {
         name: "United Kingdom",
         length: 22
     },
-    VA: {
-        name: "Vatican City",
-        length: 22
-    },
     VG: {
         name: "Virgin Islands, British",
         length: 24
     },
+    WF: {
+        name: "Wallis and Futuna Islands",
+        length: 27
+    }
 };
 
 const characters = {
@@ -348,7 +540,7 @@ function checkMod97(integerizedIban) {
 
 // main function
 function validateIban(iban) {
-    const trimmedIban = iban.replace(/ /g,'');
+    const trimmedIban = iban.replace(/ /g, '');
     return checkLength(trimmedIban) && checkMod97(integerize(trimmedIban));
 }
 
